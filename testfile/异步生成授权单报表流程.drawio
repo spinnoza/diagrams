@@ -1,15 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T09:11:37.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6EMZwZqDEyWlOgvKz8xb" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-04T09:25:58.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vK9jMVFKlEXNG0n1i83w" version="20.1.1" type="github">
   <diagram id="0d-p2dJ-ti4IA-214Bir" name="Page-1">
     <mxGraphModel dx="942" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TUelWT6_uA5BFqEehYIz-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="60" width="20" height="470" as="geometry" />
+          <mxGeometry x="100" y="60" width="20" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="TUelWT6_uA5BFqEehYIz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;startArrow=none;" edge="1" parent="1" source="TUelWT6_uA5BFqEehYIz-7">
+        <mxCell id="TUelWT6_uA5BFqEehYIz-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="TUelWT6_uA5BFqEehYIz-1">
+          <mxGeometry x="5" y="130" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;startArrow=none;exitX=0.45;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TUelWT6_uA5BFqEehYIz-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="530" as="targetPoint" />
+            <mxPoint x="365" y="440" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="365" y="530" />
             </Array>
@@ -21,13 +25,13 @@
         <mxCell id="TUelWT6_uA5BFqEehYIz-3" value="Azure Storage" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="60" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TUelWT6_uA5BFqEehYIz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1">
+        <mxCell id="TUelWT6_uA5BFqEehYIz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;startArrow=none;" edge="1" parent="1" source="TUelWT6_uA5BFqEehYIz-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="554.5" y="480" as="targetPoint" />
+            <mxPoint x="555" y="530" as="targetPoint" />
             <mxPoint x="554.5" y="110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TUelWT6_uA5BFqEehYIz-8" value="通过授权单及指标页面输入生成报表&lt;br&gt;条件,点击生成" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" target="TUelWT6_uA5BFqEehYIz-7" parent="1" source="TUelWT6_uA5BFqEehYIz-1">
+        <mxCell id="TUelWT6_uA5BFqEehYIz-8" value="通过授权单及指标页面输入生成报表&lt;br&gt;条件,点击生成" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=0;startFill=0;" edge="1" target="TUelWT6_uA5BFqEehYIz-7" parent="1" source="TUelWT6_uA5BFqEehYIz-1">
           <mxGeometry x="0.0025" y="20" relative="1" as="geometry">
             <mxPoint x="130" y="190" as="sourcePoint" />
             <Array as="points">
@@ -38,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TUelWT6_uA5BFqEehYIz-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="360" y="190" width="10" height="150" as="geometry" />
+          <mxGeometry x="360" y="190" width="10" height="230" as="geometry" />
         </mxCell>
         <mxCell id="TUelWT6_uA5BFqEehYIz-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="TUelWT6_uA5BFqEehYIz-2" target="TUelWT6_uA5BFqEehYIz-7">
           <mxGeometry relative="1" as="geometry">
@@ -46,12 +50,89 @@
             <mxPoint x="315" y="110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TUelWT6_uA5BFqEehYIz-12" value="返回信息:加入生成报表队列,请稍后在报表&lt;br&gt;下载页面查看" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.35;exitY=0.53;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TUelWT6_uA5BFqEehYIz-7" target="TUelWT6_uA5BFqEehYIz-1">
-          <mxGeometry x="0.0243" y="-9" relative="1" as="geometry">
+        <mxCell id="TUelWT6_uA5BFqEehYIz-12" value="返回信息:加入生成报表队列,请稍后在报表&lt;br&gt;下载页面查看" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.45;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TUelWT6_uA5BFqEehYIz-7" target="TUelWT6_uA5BFqEehYIz-1">
+          <mxGeometry x="-0.1308" y="-30" relative="1" as="geometry">
             <mxPoint x="360" y="260" as="sourcePoint" />
             <mxPoint x="280" y="260" as="targetPoint" />
             <Array as="points" />
-            <mxPoint x="1" as="offset" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-13" value="请求生成报表文件" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0054" y="29" width="60" relative="1" as="geometry">
+            <mxPoint x="370" y="230" as="sourcePoint" />
+            <mxPoint x="550" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="190" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" target="TUelWT6_uA5BFqEehYIz-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554.5" y="480" as="targetPoint" />
+            <mxPoint x="554.5" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-18" value="生成报表文件成功,返回文件链接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.1;exitY=0.903;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TUelWT6_uA5BFqEehYIz-16" target="TUelWT6_uA5BFqEehYIz-7">
+          <mxGeometry x="0.116" y="-25" relative="1" as="geometry">
+            <mxPoint x="550" y="325" as="sourcePoint" />
+            <mxPoint x="400" y="330" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-20" value="生成下载链接记录&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1429" y="10" relative="1" as="geometry">
+            <mxPoint x="360" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="390" y="370" />
+            </Array>
+            <mxPoint x="370" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="360" y="450" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-23" value="进入下载文件列表,选择下载文件,点击下载链接" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="TUelWT6_uA5BFqEehYIz-22" parent="1" source="TUelWT6_uA5BFqEehYIz-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="550" y="460" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-26" value="请求下载文件" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.05;entryY=0.09;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="TUelWT6_uA5BFqEehYIz-25" parent="1" source="TUelWT6_uA5BFqEehYIz-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-27" value="" style="html=1;verticalAlign=bottom;endArrow=blockThin;dashed=1;endSize=8;exitX=-0.2;exitY=0.61;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;endFill=1;" edge="1" source="TUelWT6_uA5BFqEehYIz-25" parent="1" target="TUelWT6_uA5BFqEehYIz-1">
+          <mxGeometry x="-0.1614" y="-45" relative="1" as="geometry">
+            <mxPoint x="480" y="556" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-28" value="返回文件内容" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="495" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.65;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;exitPerimeter=0;" edge="1" parent="1" source="TUelWT6_uA5BFqEehYIz-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557" y="660" as="targetPoint" />
+            <mxPoint x="540" y="585" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="557" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TUelWT6_uA5BFqEehYIz-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="660" as="targetPoint" />
+            <mxPoint x="365" y="550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="365" y="635" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
