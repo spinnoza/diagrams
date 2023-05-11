@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T02:30:03.421Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.1" etag="rQQblG0GLuKSsh-j_9a0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T02:35:00.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oEXlE2QES2FTv7FWTX99" version="21.2.1" type="github">
   <diagram name="第 1 页" id="_HRCpeTWt7-0wFq4Uj5g">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZzCMyEGWLXBiaregX_S5-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;行政区域等级&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;public enum AdministrativeAreaLevel&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Province = 1,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; City = 2,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Country = 3&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="530" height="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
