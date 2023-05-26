@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T15:32:23.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="f3OsAgcSUC2y0RdhpYWD" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T15:38:56.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="QKIt5v8yQouL2KaPWwZT" version="21.3.4" type="github">
   <diagram name="第 1 页" id="9NqPtzcR1rDcoIRm08iA">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -48,6 +48,30 @@
         </mxCell>
         <mxCell id="MuKo_3eO2XmoA1IUUYep-19" value="路由器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MuKo_3eO2XmoA1IUUYep-17">
           <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MuKo_3eO2XmoA1IUUYep-40" value="七层模型" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="100" width="140" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="MuKo_3eO2XmoA1IUUYep-41" value="应用层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MuKo_3eO2XmoA1IUUYep-40">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MuKo_3eO2XmoA1IUUYep-42" value="表示层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MuKo_3eO2XmoA1IUUYep-40">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MuKo_3eO2XmoA1IUUYep-43" value="会话层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MuKo_3eO2XmoA1IUUYep-40">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MuKo_3eO2XmoA1IUUYep-47" value="传输层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MuKo_3eO2XmoA1IUUYep-40">
+          <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MuKo_3eO2XmoA1IUUYep-48" value="网路层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MuKo_3eO2XmoA1IUUYep-40">
+          <mxGeometry y="130" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MuKo_3eO2XmoA1IUUYep-49" value="数据链路层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MuKo_3eO2XmoA1IUUYep-40">
+          <mxGeometry y="156" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MuKo_3eO2XmoA1IUUYep-50" value="物理层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MuKo_3eO2XmoA1IUUYep-40">
+          <mxGeometry y="182" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
