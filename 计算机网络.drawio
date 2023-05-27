@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T01:21:46.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="xnhlk7Jw9aQ4T-qNGqrA" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T01:31:05.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="uNygGI8gsn4rlpS2dORm" version="21.3.4" type="github">
   <diagram name="第 1 页" id="9NqPtzcR1rDcoIRm08iA">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -128,6 +128,33 @@
           <mxGeometry width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9uz7Xqfvl1fYG3NONO2I-16" value="路由表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9uz7Xqfvl1fYG3NONO2I-14">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9uz7Xqfvl1fYG3NONO2I-18">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-20" value="DNS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9uz7Xqfvl1fYG3NONO2I-18">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="280" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9uz7Xqfvl1fYG3NONO2I-21">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-23" value="CDN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9uz7Xqfvl1fYG3NONO2I-21">
+          <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9uz7Xqfvl1fYG3NONO2I-24">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9uz7Xqfvl1fYG3NONO2I-26" value="防火墙" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9uz7Xqfvl1fYG3NONO2I-24">
           <mxGeometry x="30" y="15" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
