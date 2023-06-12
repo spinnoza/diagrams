@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T05:35:46.677Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7B-oqmtQvOSLXTSknlQl" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T05:45:29.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wgL3wXOMXWIce-hMT7G9" version="21.3.7" type="github">
   <diagram id="uKSCkIeShm2LRwMu5ESm" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -334,6 +334,78 @@
         </mxCell>
         <mxCell id="LY8fdS14QS0r5CUxmGUU-19" value="提交环节" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="300" y="4670" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="100" y="4920" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LY8fdS14QS0r5CUxmGUU-20">
+          <mxGeometry width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-22" value="审批人从工作台点击进入审批单审批" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LY8fdS14QS0r5CUxmGUU-20">
+          <mxGeometry x="42" y="27.5" width="208" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="564" y="4920" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LY8fdS14QS0r5CUxmGUU-25">
+          <mxGeometry width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-27" value="提交K2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LY8fdS14QS0r5CUxmGUU-25">
+          <mxGeometry x="42" y="27.5" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LY8fdS14QS0r5CUxmGUU-21" target="LY8fdS14QS0r5CUxmGUU-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-32" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="930" y="4920" width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LY8fdS14QS0r5CUxmGUU-32">
+          <mxGeometry width="192" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-34" value="K2查询步骤,生成他们的审批节点,写mailQueue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LY8fdS14QS0r5CUxmGUU-32">
+          <mxGeometry x="42" y="27.5" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LY8fdS14QS0r5CUxmGUU-26" target="LY8fdS14QS0r5CUxmGUU-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="860" y="5170" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LY8fdS14QS0r5CUxmGUU-36">
+          <mxGeometry width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-38" value="dms查询mailQueue,创建工作台,将上一步的工作台置为已完成状态,更新审批节点(如果有必要)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LY8fdS14QS0r5CUxmGUU-36">
+          <mxGeometry x="74.38" y="24.06" width="225.63" height="35.94" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LY8fdS14QS0r5CUxmGUU-33" target="LY8fdS14QS0r5CUxmGUU-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-40" value="审批环节" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="319" y="5100" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-41" value="调整内容:K2这一步生成第一步审批人的工作台" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="4490" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LY8fdS14QS0r5CUxmGUU-11" target="LY8fdS14QS0r5CUxmGUU-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-43" value="调整内容:不用创建工作台了" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="4725" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LY8fdS14QS0r5CUxmGUU-15" target="LY8fdS14QS0r5CUxmGUU-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-45" value="调整内容:不用创建工作台了" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="5160" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.029;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LY8fdS14QS0r5CUxmGUU-37" target="LY8fdS14QS0r5CUxmGUU-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-47" value="调整内容:K2这一步生成下一步审批人的工作台,将上一步的工作台置为完成状态" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="4900" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LY8fdS14QS0r5CUxmGUU-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LY8fdS14QS0r5CUxmGUU-33" target="LY8fdS14QS0r5CUxmGUU-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
